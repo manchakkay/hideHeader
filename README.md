@@ -3,9 +3,9 @@
 
 ## CDN:
  #### Minified:  
- https://cdn.jsdelivr.net/gh/manchakkay/hideHeader/hideHeader.min.js  
+ https://cdn.jsdelivr.net/gh/manchakkay/hideHeader@latest/hideHeader.min.js
  #### Default:  
- https://cdn.jsdelivr.net/gh/manchakkay/hideHeader/hideHeader.js  
+ https://cdn.jsdelivr.net/gh/manchakkay/hideHeader@latest/hideHeader.js  
  
 ## Usage
  #### Initialization:  
@@ -14,7 +14,8 @@
  hideHeader.init(timeout, selector, height, height_func)
  ``` 
  `timeout` - Time to reappear (in millisecons), use `0` to disable reappearance  
- `selector` - HTML selector of header 
- `height` - Header height with "px". Example: "100px".
- `height_func` - Height calculation function, works if "height" equal to "auto". Required "px" prefix. 
+ `selector` - HTML selector of header  
+ `height` - Header height with "px". Example: "100px".  
+ `height_func` - Height calculation function, works if "height" equal to "auto". Required "px" prefix.  
+ For example: `document.querySelector('.header').clientHeight + "px"`
  </br>
