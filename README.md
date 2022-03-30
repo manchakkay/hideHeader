@@ -17,5 +17,5 @@
  `selector` - HTML selector of header  
  `height` - Header height with "px". Example: "100px".  
  `height_func` - Height calculation function, works if "height" equal to "auto". Required "px" prefix.  
- For example: `document.querySelector('.header').clientHeight + "px"`
+ For example: `document.querySelector('.header').clientHeight + 'px'`
  </br>
