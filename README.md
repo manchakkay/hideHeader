@@ -3,9 +3,9 @@
 
 ## CDN:
  #### Minified:  
- https://cdn.jsdelivr.net/gh/manchakkay/hideHeader@main/hideHeader.min.js
+ https://cdn.jsdelivr.net/gh/manchakkay/hideHeader@b22621c/hideHeader.min.js
  #### Default:  
- https://cdn.jsdelivr.net/gh/manchakkay/hideHeader@main/hideHeader.js  
+ https://cdn.jsdelivr.net/gh/manchakkay/hideHeader@b22621c/hideHeader.js  
  
 ## Usage
  #### Initialization:  
