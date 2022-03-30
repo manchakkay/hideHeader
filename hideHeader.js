@@ -47,6 +47,7 @@ var hideHeader = {
         // Update pos and header object
         hideHeader.data.scroll.now = window.pageYOffset;
         hideHeader.data.header = document.querySelector(hideHeader.data.settings.selector);
+        hideHeader.data.header.style.transition = "top 0.6s ease-in-out";
 
         // Checking header object and scroll position
         if (hideHeader.data.header != undefined && hideHeader.data.header != null && hideHeader.data.scroll.prev > hideHeader.data.scroll.now) {
