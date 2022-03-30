@@ -37,10 +37,10 @@ var hideHeader = {
             hideHeader.data.settings.selector = selector.toString();
 
         if (height != undefined && height != null)
-            hideHeader.data.height = height;
+            hideHeader.data.settings.height = height;
 
         if (height == "auto" && height_func != undefined && height_func != null)
-            hideHeader.data.height_func = height_func;
+            hideHeader.data.settings.height_func = height_func;
 
     },
     handle: function () {
