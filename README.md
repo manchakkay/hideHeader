@@ -16,6 +16,6 @@
  `timeout` - Time to reappear (in millisecons), use `0` to disable reappearance  
  `selector` - HTML selector of header  
  `height` - Header height with "px". Example: "100px".  
- `height_func` - Height calculation function in string format, works if "height" equal to "auto". Required "px" prefix.  
+ `height_func` - Height calculation function in string format, works if "height" equal to "auto". Required "px" suffix.  
  For example: `"document.querySelector('.header').clientHeight + 'px'"`
  </br>
