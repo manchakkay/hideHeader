@@ -50,7 +50,7 @@ var hideHeader = {
         hideHeader.data.header.style.transition = "top 0.6s ease-in-out";
 
         // Checking header object and scroll position
-        if (hideHeader.data.header != undefined && hideHeader.data.header != null && hideHeader.data.scroll.prev > hideHeader.data.scroll.now) {
+        if ((hideHeader.data.header != undefined && hideHeader.data.header != null && hideHeader.data.scroll.prev > hideHeader.data.scroll.now && hideHeader.data.scroll.prev > 0) || (hideHeader.data.scroll.now == 0)) {
             hideHeader.show();
         } else {
             hideHeader.hide();
